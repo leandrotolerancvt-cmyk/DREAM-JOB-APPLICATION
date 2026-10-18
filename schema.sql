@@ -1,4 +1,3 @@
--- Dream Job: Data Analyst - Job Application System
 CREATE DATABASE IF NOT EXISTS dream_job_db
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE dream_job_db;
