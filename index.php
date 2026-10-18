@@ -17,7 +17,6 @@ function clean(array $src): array {
     return $d;
 }
 
-// ---- Handle form submissions (POST) ----
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $action = $_POST['action'] ?? '';
     $id = (int)($_POST['id'] ?? 0);
